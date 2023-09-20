@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background-color:rgb(8, 8, 8);
+}
+.main_div{
+  background-color: blue;
+}
+
+.main_header{
+  color:azure;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  
+}
+
+/* App.css */
+.container {
+  display: flex; /* Use Flexbox */
+  justify-content: space-between; /* Space evenly between child divs */
+  width: 100%; /* Ensure the container spans the entire width */
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 50%; /* Adjust the width as needed for spacing */
+  padding: 30px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+}
+
+.btn{
+  border-radius: 10px;
+  border: 1px solid black;
+  color: aliceblue;
+  background-color: red;
+}
+
+.images {
+  max-width: 100%; /* Ensure the image does not exceed the width of the container */
+  height: auto; /* Maintain the image's aspect ratio */
+  display: block; /* Remove any default inline spacing */
+  margin: 0 auto; /* Center the image horizontally within the box */
+}
